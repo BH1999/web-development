@@ -1,3 +1,3 @@
-const a = "abcde";
+const a = "abc";
 
 console.log(a.split(''));
