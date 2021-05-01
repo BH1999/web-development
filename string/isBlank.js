@@ -4,7 +4,7 @@ Test Data :
 console.log(isBlank(‘’)); // true
 console.log(isBlank(‘abc’)); // false*/
 
-const isBlank = (input) =>
+function isBlank(input)
 {
     if(input.length === 0)
     return true;
