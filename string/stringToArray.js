@@ -3,7 +3,7 @@ File name suggestion: stringToArray.js
 Test Data :
 console.log(stringToArray(“Robin Singh”)); // [“Robin”, “Singh”]*/
 
-function stringToArray (str) {
+const stringToArray = (str) => {
     return str.trim().split(" ");
 };
 console.log(stringToArray("Robin Singh"));
